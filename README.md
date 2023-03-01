@@ -5,7 +5,7 @@ Projeto Sport League com intuito de listar jogos de um único grupo através de 
 ## Instalar dependências
 
 ```
-**npm** install 
+npm install 
 ```
 
 ## Executando Aplicativo de Front-end
@@ -13,7 +13,7 @@ Projeto Sport League com intuito de listar jogos de um único grupo através de 
 O seguinte comando executará o SPA no servidor de desenvolvimento local:
 
 ```shell
-> **npm** start
+npm start
 ```
 
 ## Construção de Produção
@@ -21,6 +21,6 @@ O seguinte comando executará o SPA no servidor de desenvolvimento local:
 Para preparar a compilação de produção, você precisa executar:
 
 ```shell
-**npm** run build
+npm run build
 ```
 
