@@ -1,0 +1,133 @@
+.l-leaderboard__head__team-name {
+    flex: 0 0 60%;
+}
+
+@media screen and (max-width: 500px) {
+    .l-leaderboard__head__team-name {
+        flex: 0 0 58%;
+    }
+}
+
+.l-leaderboard__head__title {
+    font-size: .75rem;
+    font-weight: 700;
+    color: #4B5C68;
+}
+
+.l-leaderboard__head__title--center {
+    text-align: center;
+}
+
+.l-leaderboard__head__goals {
+    flex: 0 0 10%;
+}
+
+@media screen and (max-width: 500px) {
+    .l-leaderboard__head__goals {
+        flex: 0 0 14%;
+    }
+}
+
+.l-leaderboard__head__goals--gd {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .l-leaderboard__head__goals--gf,
+    .l-leaderboard__head__goals--ga {
+        display: none;
+    }
+
+    .l-leaderboard__head__goals--gd {
+        display: block;
+    }
+}
+
+.l-leaderboard__head__points {
+    flex: 0 0 10%;
+}
+
+@media screen and (max-width: 500px) {
+    .l-leaderboard__head__points {
+        flex: 0 0 14%;
+    }
+}
+
+.l-leaderboard__item {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid;
+    border-color: #E4EDF2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l-leaderboard__item:last-child {
+    border: 0;
+}
+
+.l-leaderboard__item__team-name {
+    flex: 0 0 60%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .l-leaderboard__item__team-name {
+        flex: 0 0 58%;
+    }
+}
+
+.l-leaderboard__item__country {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4B5C68;
+}
+
+.l-leaderboard__item__team-name .l-leaderboard__item__country {
+    margin-left: 1rem;
+}
+
+.l-leaderboard__item__goals {
+    flex: 0 0 10%;
+}
+
+.l-leaderboard__item__goals--gd {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .l-leaderboard__item__goals {
+        flex: 0 0 14%;
+    }
+
+    .l-leaderboard__item__goals--gf,
+    .l-leaderboard__item__goals--ga {
+        display: none;
+    }
+
+    .l-leaderboard__item__goals--gd {
+        display: block;
+    }
+}
+
+.l-leaderboard__item__points {
+    flex: 0 0 10%;
+}
+
+@media screen and (max-width: 500px) {
+    .l-leaderboard__item__points {
+        flex: 0 0 14%;
+    }
+}
+
+.l-leaderboard__item__content {    
+    font-size: .875rem;
+    text-align: center;
+    color: #4B5C68;
+} 
+
+.l-leaderboard__item__content--points {    
+    font-weight: 700;
+    color: #025FEB;
+}

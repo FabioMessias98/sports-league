@@ -1,0 +1,26 @@
+.l-header {
+    padding: 0.46875rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #025FEB;
+}
+
+.l-header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.l-header__item {
+    margin-right: 2.5rem;
+    display: flex;
+    text-decoration: none;
+}
+
+.l-header__item:last-child {
+    margin-right: 0;
+}
+
+.l-header span {
+    padding-left: .5rem;
+    color: #FFF;
+}

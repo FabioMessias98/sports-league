@@ -1,0 +1,219 @@
+.l-schedule {
+    margin-top: 3.75rem;
+}
+
+.l-schedule__title {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #182C62;
+}
+
+.l-schedule__head {
+    padding: 0.71875rem 1rem;
+    background-color: #E3EDF3;
+}
+
+.l-schedule__head__date {
+    padding: 0 .5rem;
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 750px) {
+    .l-schedule__head__date {
+        flex: 0 0 20%;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .l-schedule__head__date {
+        display: none;
+    }   
+}
+
+.l-schedule__head__stadim {
+    padding: 0 2rem;
+    flex: 0 0 30%;
+}
+
+@media screen and (max-width: 750px) {
+    .l-schedule__head__stadim {
+        display: none;
+    }
+}
+
+.l-schedule__head__home-team {
+    padding-right: 10%;
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 750px) {
+    .l-schedule__head__home-team {
+        padding-right: 5%;
+        flex: 0 0 35%;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .l-schedule__head__home-team {
+        padding-right: 10%;
+        flex: 0 0 50%;
+    }   
+}
+
+.l-schedule__head__away-team {
+    flex: 0 0 30%;
+}
+
+@media screen and (max-width: 750px) {
+    .l-schedule__head__away-team {
+        padding-left: 5%;
+        flex: 0 0 35%;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .l-schedule__head__away-team {
+        padding-left: 10%;
+        flex: 0 0 50%;
+    }   
+}
+
+.l-schedule__head__title {
+    font-size: .75rem;
+    font-weight: 700;
+    /* text-align: center; */
+    color: #4B5C68;
+}
+
+.l-schedule__item {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l-schedule__item:nth-of-type(odd) {
+    background-color: #FFF;
+}
+
+.l-schedule__item:nth-of-type(even) {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #E4EDF2;
+    background-color: #F7F7F7;
+}
+
+.l-schedule__item__date-time {
+    padding: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 10%;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 750px) {
+    .l-schedule__item__date-time {
+        flex: 0 0 20%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .l-schedule__item__date-time {
+        display: none;
+    }
+}
+
+.l-schedule__item__content {
+    /* margin-bottom: .5rem; */
+    font-size: .875rem;
+    color: #4B5C68;
+}
+
+.l-schedule__item__stadim {
+    padding: 0 2rem;
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+    .l-schedule__item__stadim {
+        display: none;
+    }
+}
+
+.l-schedule__item__home-team {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+    .l-schedule__item__home-team {
+        flex: 0 0 30%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .l-schedule__item__home-team {
+        flex: 0 0 40%;
+    }
+}
+
+.l-schedule__item__home-team .l-schedule__item__country {
+    margin-right: 1rem;
+}
+
+.l-schedule__item__country {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4B5C68;
+}
+
+.l-schedule__item__scoreboard {
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .l-schedule__item__scoreboard {
+        flex: 0 0 20%;
+    }
+}
+
+.l-schedule__item__goal {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4B5C68;
+}
+
+.l-schedule__item__away-team {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+    .l-schedule__item__away-team {
+        flex: 0 0 30%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .l-schedule__item__away-team {
+        flex: 0 0 40%;
+    }
+}
+
+.l-schedule__item__away-team .l-schedule__item__country {
+    margin-left: 1rem;
+}
+
